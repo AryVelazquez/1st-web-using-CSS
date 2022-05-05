@@ -1,0 +1,178 @@
+* {
+
+	font-family: "Garamond";
+}
+h1 {
+	text-align: center;
+	padding: 20px;
+	background: #b3e5fc;
+	color: #924e7d ;
+	font-size: 40px;
+	width: 100%;
+}
+
+img{
+margin: 15px;
+border-radius: 10px ;
+width: 300px;
+height: 168px;	
+}
+
+article {
+    border: 1px solid #d0d0d0;
+    border-radius: 20px;
+    padding: 20px;
+	text-align: center;
+	width: 900px;
+	height: 900 px;
+	float: left;
+	margin-top: 21px;
+	margin-left: 18px;
+}
+
+#form {
+    padding-top: 10px;
+}
+
+#banda {
+	padding-top: 10px;
+}
+
+div {
+    float: right;
+    border: 1px solid #d0d0d0;
+    border-radius: 20px;
+    padding: 20px;
+	text-align: center;
+	margin: 20px;
+	box-sizing: border-box;
+}
+#boton {
+   padding: 5px;
+   font: bold .8em;
+   border: 2px solid #d0d0d0 ;
+   border-radius: 5px;
+   cursor: pointer;
+   transform: rotate(-1,5deg);
+   font-size: 15px;
+}
+
+
+h2,h4 {
+    font-size: 30px;
+    color: #924e7d;
+}
+
+h3,h5 {
+	font-size: 25px;
+	color: #924e7d;
+}
+
+
+p {
+	font-size: 20px;
+	white-space: pre-line;
+    text-align: initial;
+}
+
+p.form {
+	font-size: 20px;
+	white-space: pre-line;
+	text-align: center;
+}
+
+p.banda {
+	margin-top: -10px;
+}
+
+label {
+    font-size: 20px;
+    color: grey;
+
+}
+
+input[type="radio"]{
+	display: none;
+}
+label:hover, label:hover~label{
+	color: orange;
+}
+
+input[type="radio"]:checkede~label{
+	color: orange;
+}
+
+.estrellas {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
+
+
+
+li {
+	font-size: 20px;
+    padding: 20px;
+	list-style-type: circle;
+	text-align: initial;
+	margin-top: -35px;
+}
+
+#nosotros {
+	margin-top: -180px;
+	height: 432px;
+	width: 255px;
+}
+
+h5.nosotros {
+	margin-top: 30px;
+}
+
+p.nosotros {
+    margin-top: -10px;
+	text-align: center;
+}
+
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:focus, a:hover {
+  border-bottom: 1px solid;
+}
+
+a:active {
+  color: red;
+}
+
+a {
+	font-size: 17px;
+    white-space: pre-line;
+    line-height: 1.5px;
+}
+
+
+/*footer {
+   background-color: #b3e5fc;
+   width: 100%;
+   margin-top: 970px;
+   height: 30px;
+}
+
+h6 {
+	color: #924e7d;
+	font-size: 15px;
+	text-align: right;
+	padding: 10px;
+}
+
